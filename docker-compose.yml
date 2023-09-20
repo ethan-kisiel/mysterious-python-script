@@ -1,0 +1,7 @@
+version: '3.8'
+
+services:
+  video_generator:
+    build: ./src
+    volumes:
+      - ./output:/usr/src/output
